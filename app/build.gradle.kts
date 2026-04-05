@@ -55,6 +55,8 @@ dependencies {
     implementation(libs.hilt.android)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.hilt.navigation.compose)
+    testImplementation(libs.junit.junit)
+    testImplementation(libs.junit.junit)
     ksp(libs.hilt.compiler)
     implementation(libs.retrofit)
     implementation(libs.retrofit.kotlinx.serialization)
@@ -66,6 +68,8 @@ dependencies {
     implementation(libs.coil.gif)
 
     testImplementation(libs.junit)
+    testImplementation(libs.mockk)
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
